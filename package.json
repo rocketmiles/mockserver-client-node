@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jamesdbloom/mockserver-client-node.git"
+    "url": "https://github.com/rocketmiles/mockserver-client-node.git"
   },
   "bugs": {
     "url": "https://github.com/jamesdbloom/mockserver-client-node/issues"
@@ -46,5 +46,6 @@
   "dependencies": {
     "q": "~2.0",
     "websocket": "~1.0"
-  }
+  },
+  "publishConfig":{"registry":"https://rocketmiles.jfrog.io/rocketmiles/api/npm/rocket-npm/"}
 }
